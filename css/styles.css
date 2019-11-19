@@ -895,7 +895,7 @@ input[type="number"] {
     .styl{
         width: 20% !important;
     }
-    .phun{
+    .phun,.phunn{
         display: none;
     }
     .laba__1{
@@ -991,5 +991,37 @@ input[type="number"] {
     }
     .laba__1_62{
         margin-left: 16% !important;
+    }
+    .land__1{
+        font-size: 23px;
+        line-height: 128%;
+    }
+    .lends{
+        width: 70%;
+    }
+    .land__1_1{
+        font-size: 11px;
+        line-height: 20px;
+        margin-left: 0% !important;
+    }
+    .laba__1_22{
+        font-size: 13px;
+        line-height: 22px;
+        padding: .7rem 2.3rem;
+       
+    }
+    .flic2 {
+        display: grid !important;
+        grid-template-columns: repeat(3, 30px);
+        grid-gap: 80px;
+        grid-auto-rows: minmax(43px, auto);
+        margin-top: -5% !important;
+        margin-left: 0% !important;
+    }
+    .clarp__2 img{
+        margin: 0 auto !important;
+    }
+    .ulala{
+        width: 93%;
     }
 }
