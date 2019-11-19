@@ -893,16 +893,17 @@ input[type="number"] {
         width:70%;
     }
     .styl{
-        width: 15% !important;
+        width: 20% !important;
     }
     .phun{
         display: none;
     }
     .laba__1{
-        font-size: 34px;
+        font-size: 31px;
     }
     .laba__1_1{
-        font-size: 12.5px;
+        font-size: 11px;
+        line-height: 20px;
     }
     .laba__1_2{
         font-size: 12px;
@@ -915,7 +916,7 @@ input[type="number"] {
     
     .flic {
         display: grid !important;
-        grid-template-columns: repeat(3, 43px);
+        grid-template-columns: repeat(3, 30px);
         grid-gap: 100px;
         grid-auto-rows: minmax(43px, auto);
         margin-bottom: -24%;
@@ -925,7 +926,7 @@ input[type="number"] {
         display: none;
     }
     .classy{
-        margin-left: -180% !important;
+        margin-left: -200% !important;
     }
     .laba__1_4{
         font-size: 28px;
@@ -933,15 +934,20 @@ input[type="number"] {
         margin-top: 4%;
 
     }
+    .clarp{
+        font-size: 23px !important;
+        line-height: 36px;
+        margin-top: 4%;
+    }
     .laba__1_5{
-        font-size: 10px;
+        font-size: 9px;
         line-height: 17px;
     }
     .phun1{
         display: none;
     }
     .laba__1_7{
-        font-size: 25px;
+        font-size: 23px;
     }
     .merchy{
         width: 80%;
@@ -975,5 +981,12 @@ input[type="number"] {
     }
     .didon1{
         width: 38%;
+    }
+    .clarp__1 img{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .laba__1_62{
+        font-size: 23px;
     }
 }
