@@ -986,7 +986,10 @@ input[type="number"] {
         width: 50%;
         margin: 0 auto;
     }
-    .laba__1_62{
+    .laba__1_62,.laba__1_61,.laba__1_6{
         font-size: 23px;
+    }
+    .laba__1_62{
+        margin-left: 16% !important;
     }
 }
