@@ -970,6 +970,12 @@ input[type="number"] {
         grid-auto-rows: minmax(100px, auto);
         margin-bottom: -24%;
     }
+    .flicky1{
+        margin-left: 0% !important;
+    }
+    .wakky1{
+        margin-bottom: 1rem;
+    }
     .queers p {
         margin-left: -1%;
     }
@@ -1063,5 +1069,31 @@ input[type="number"] {
     .flic3{
         display: none;
     }
+    .merch2 {
+        margin-top: -2rem !important;
+        font-size: 22px;
+        line-height: 28px;
+        
+    }
+    .merces{
+        margin-left: 0% !important;
+        width: 95%;
+    }
+    .merces1{
+        margin-left: 19% !important;
+        width: 65%;
+    }
+    .party {
+        font-size: 12px;
+        line-height: 22px;
+        margin-left: 0% !important;
+        margin-top: -1rem;
+       
+    }
+    .merch4 {
+        font-size: 11px;
+        line-height: 18px;
+    }
+        
         
 }
