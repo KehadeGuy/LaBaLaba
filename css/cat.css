@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 300;
+    overflow-x: auto;
+}
+.gigg:hover{
+    transition: all 2s;    
+}
+
+.card{
+    border: none !important;
+}
+.cat__1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+.cat__2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #828282;
+}
+.wave a{
+    color: black;
+    font-family: 'Poppins';
+}
+.wave a:hover{
+    color: maroon;
+}
+.wave .btn:hover{
+    border: 1px solid palevioletred;
+}
+.para__1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #12191D;
+
+    
+}
+.para__12,.para__13{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.para__12:hover{
+    color: maroon;
+}
+.para__13:hover{
+    color: maroon;
+}
+.wack{
+    background: #FEB71D;
+    border-radius: 3px;
+    padding: 2px .5rem 0 .5rem;
+}
+::-webkit-input-placeholder {
+    /* Edge */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 14px;letter-spacing: 0.05em;
+    color: #12191D;
+}
+
+    :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 14px;letter-spacing: 0.05em;
+    color: #12191D;
+}
+
+    ::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 14px;letter-spacing: 0.05em;
+    color: #12191D!important;
+}
+/* Sign Up */
+.sig__1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 54px;
+    color: #12191D;
+}
+.parry{
+    border: 1px solid #12191D ;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.wayys{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.text-mute{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px; 
+    color: #000000;
+}
+.foot5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #303030;
+    margin-top: 30%;
+}
+.foot56{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #303030;
+    margin-top: 24%;
+}
+.foot57{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #303030;
+    margin-top: 38%;
+}
+.foot58{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #303030;
+    margin-top: 9%;
+}
+.north{
+    background-image: url(../img/bigstock-Waist-Up-Of-Happy-African-Lady-301676596\ 1selfie.png);
+    background-size:cover;
+    height: 100vh;
+}
+.parry__2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55.5048px;
+    line-height: 128%;
+    color: #FFFFFF;
+    
+}
+.Rems{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;    
+    color: #12191D;
+}
+a{
+    text-decoration: none !important;
+}
+/* user details */
+.sig__3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 54px;
+    color: #12191D;
+}
+.westy{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #12191D!important;
+}
+/* toggle button */
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  /* end */
+  
