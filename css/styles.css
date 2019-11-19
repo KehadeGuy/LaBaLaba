@@ -889,5 +889,91 @@ input[type="number"] {
     color: #12191D;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .navbar-brand img{
+        width:70%;
+    }
+    .styl{
+        width: 15% !important;
+    }
+    .phun{
+        display: none;
+    }
+    .laba__1{
+        font-size: 34px;
+    }
+    .laba__1_1{
+        font-size: 12.5px;
+    }
+    .laba__1_2{
+        font-size: 12px;
+        padding: .7rem 1.5rem;
+        margin-bottom: 7rem;
+    }
+    .laba__1_3{
+        font-size: 13px;
+    }
     
+    .flic {
+        display: grid !important;
+        grid-template-columns: repeat(3, 43px);
+        grid-gap: 100px;
+        grid-auto-rows: minmax(43px, auto);
+        margin-bottom: -24%;
+        margin-top: -5%;
+    }
+    .flics{
+        display: none;
+    }
+    .classy{
+        margin-left: -180% !important;
+    }
+    .laba__1_4{
+        font-size: 28px;
+        line-height: 36px;
+        margin-top: 4%;
+
+    }
+    .laba__1_5{
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .phun1{
+        display: none;
+    }
+    .laba__1_7{
+        font-size: 25px;
+    }
+    .merchy{
+        width: 80%;
+    }
+    .lady__1{
+        width: 96%;
+    }
+    .laba__21,.laba__1_21,.laba__22{
+        margin-left: 0% !important;
+    }
+    .laba__1_21{
+        font-size: 13px;
+        padding: .7rem .8rem;
+        
+    }
+    .flic1 {
+        display: grid !important;
+        grid-template-columns: repeat(3, 10px);
+        grid-gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        margin-bottom: -24%;
+    }
+    .queers p {
+        margin-left: -1%;
+    }
+    .queers {
+        margin-top: 8%;
+    }
+    .queer p {
+        margin-left: -2%;
+    }
+    .didon1{
+        width: 38%;
+    }
 }
