@@ -165,10 +165,10 @@ input.bg-dark-blue {
 		max-width: 332px !important;
 	}
 
-	.form-group input,
+	/* .form-group input,
 	.form-group label {
 		margin: 15px;
-	}
+	} */
 
 	.form-control {
 		display: block;
@@ -2757,236 +2757,95 @@ MEDIAQUERIES
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
-  .dashb__1{
-    font-size: 14.9626px;
-    line-height: 38px;
-
+  .main{
+    margin-left: 0% !important;
   }
-  .scann, .scann2{
-    margin-bottom: 15px !important;
-    margin-left: 5% !important;
+  .ling__1{
+    width: 100%;
   }
-  .scann3{
-    margin-bottom: 15px !important;
-    margin-left: 5% !important;
+  .dashb__1 {
+    font-size: 20.9626px;
+    line-height: 48px;
+  }
+  .silly1{
+    justify-content: flex-start!important;
+    margin-bottom: 1rem;
+  }
+  .upload__3 {
     
-  }
-  .scann4{
-    margin-bottom: 15px !important;
-    margin-left: 5% !important;
-    
-  }
-  .scann5{
-    margin-left: 5% !important;
-
-  }
-  .scanni{
-    margin-bottom: -10% !important;
-  }
-  .dashb__2{
-    font-size: 14px;
-    line-height: 140.5%;
-
-  }
-  .dashb__21{
-    font-size: 30px;
-    line-height: 140.5%;
-
-  }
-  .wata1{
-    width: 40%;
-  }
-  .dashb__24{
     font-size: 13px;
-    line-height: 140.5%;
-
-  }
-  .wata2{
-    top: 27px;
-    right: 10px;
-  }
-  .wata3{
-    top: 12px;
-    right: 10px;
-
-  }
-  .wata4{
-    top: 17px;
-    right: 10px;
-
-  }
-  .dashy1{
-    font-size: 15px;
-    line-height: 21px;
-    margin-top: 5% !important;
-  }
-  .dashy2{
-    font-size: 11.9672px;
-    line-height: 16px;
-    margin-top: 1% !important;
-
-  }
-  .sconji .row{
-    display: grid !important;
-    grid-template-columns: repeat(2, 15px);
-    grid-gap: 30px;
-      }
-  .sconji .col-md-4{
-    width: 730px !important;
-  }
-  .dashy3{
-    font-size: 9px;
-  line-height: 14px;
-
-  }
-  .dashy4{
-    font-size: 11px;
     line-height: 18px;
-    margin-top: 2% !important;
-
   }
-  .sese .scalan2{
-    padding: .5rem 3%;
-
+  .termms li {
+    font-size: 14px;
+    line-height: 24px;
   }
-  .cont-1{
-    font-size: 12.9626px;
-    line-height: 38px;
-
+  .druff{
+    margin-top: 1rem !important;
   }
-  .cont-2{
-    font-size: 7px;
-    line-height: 21px;
-    margin-left: 6% !important;
+  .paym__1 {
+    font-size: 20.9412px;
+    line-height: 30px;
   }
-  .cont-11{
-    padding: .5rem .5rem;
-    margin-right: 6%;
+  .dissa{
+    display: none;
   }
-  .cont-111{
-    margin-left: 4.5%;
+  .taggy{
+    margin-left: -1% !important;
   }
-  .cont-22{
-    margin-left: 17% !important;
+  .oriscalan{
+    padding: 1.4rem .1rem .1rem .1rem;
   }
-  .cont__1{
-    margin-top: 0% !important;
-    margin-left: 40% !important;
+  .scally__1{
+    margin-left: 1% !important;
   }
-  .ditty{
-    margin-left: 5% !important;
-    width: 90%;
+  .soran{
+    width: 97% !important;
   }
-  .geto{
+  .creds{
+    margin-bottom: 1rem !important;
+  }
+  .flic {
+    display: grid !important;
+    grid-template-columns: repeat(2, 10px);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: -24%;
+  }
+  .sconji .col-md-10 {
+    width: 530px !important;
+  }
+  .frud{
+    margin-top: 2rem !important;
+  }
+  .rodo2{
+    
+    padding: .4rem 1rem;
+    
     font-size: 12px;
-    line-height: 27px;
-
+    margin-left: 38%;
+    margin-top: -1rem;
   }
-  .baddy img{
-    margin-left: 20% !important;
-    margin-bottom: 9%;
+  .email__1 {
+    font-size: 15px;
+    line-height: 30px;
   }
-  .baddy{
-    margin-right: 3% !important;
+  .taggys{
+    margin-left: -11%;
   }
-  .contt2{
-    font-size: 12px;
-    line-height: 21px;
-    text-align: justify;
+  .sabby{
+    margin-top: 1.5rem;
   }
-  /* Lend */
- 
- .dissy input[type=text]{
-   width: 180% !important;
- }
- .dissy input[type=datetime]{
-  width: 180% !important;
+  .sett__2 {
+    
+    border-radius: 2.52054px;
+    padding: .3rem .1rem; 
+    width: 43%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
 }
-.dissy label{
-  width: 194% !important;
-}
-.nawa{
-  display: grid !important;
-  grid-template-columns: repeat(2, 10px);
-  grid-gap: 50px;
-  margin-top: 20% !important;
-}
-.scala{
-  margin-left: 2% !important;
-  margin-top: 8% !important;
-}
-.olly3{
-    font-size: 13.3579px;
-    line-height: 16px;
-    margin-top: 10% !important;
-
-}
-.proff{
-  margin-left: 43% !important;
-}
-.proffs{
-  margin-left: 33% !important;
-  margin-bottom: 5% !important;
-}
-.scala .col-md-9{
-  margin-top: 8% !important;
-}
-/* account2 */
-.ogger{
-  margin-right: 4% !important;
-}
-.sun{
-  margin-bottom: 6% !important;
-}
-small{
-  font-size: 60% !important;
-}
-.nawa1{
-  display: grid !important;
-  grid-template-columns: repeat(2, 20px);
-  grid-gap: 100px;
-  margin-top: 20% !important;
-}
-.nawa1 .barnes{
-  padding: .3rem .5rem !important;
-}
-.nawa2{
-  display: grid !important;
-  grid-template-columns: repeat(2, 20px);
-  grid-gap: 110px;
-  margin-top: 20% !important;
-}
-.nawa3{
-  display: grid !important;
-  grid-template-columns: repeat(2, 20px);
-  grid-gap: 120px;
-  margin-top: 20% !important;
-}
-
-/* addCard */
-
-.sun1{
-  margin-left: 2% !important;
-}
-.scalan{
-  margin-right: -1% !important;
-}
-.bank__2{
-  font-size: 12px;
-  line-height: 27px;
-
-}
-.ishh{
-  margin-left: 3% !important;
-}
-.nawa4{
-  opacity: 0;
-}
-.nawa3 .btn1{
-  padding: .3rem 0.5rem !important;
-}
-
-}
+  
 /* Bigger screens */
 @media screen and (min-width: 1680px){
    
