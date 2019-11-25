@@ -2844,6 +2844,30 @@ and (max-device-width : 480px) {
     margin-top: 1rem;
     margin-left: 1rem;
   }
+  .setty2 {
+    border-radius: 2.52054px;
+    padding: .3rem .1rem; 
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .qaw{
+    width: 90% !important;
+  }
+  .admin__2 {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .polo{
+    margin-top: 1rem !important;
+  }
+  .polo2{
+    margin-left: 0% !important;
+  }
+  .polo3{
+    margin-left: 0% !important;
+    margin-top: 1rem !important;
+  }
 }
   
 /* Bigger screens */

@@ -46,7 +46,7 @@ body {
     color: white !important;
 }
 .scale{
-    background-image: url(../img/Group\ 153bricker.png);
+    background-image: url(../img/Group\ 2263briker.png);
     background-size: cover;
     
 }
@@ -1104,6 +1104,49 @@ input[type="number"] {
         font-size: 24px;
         line-height: 34px;
     }
+    .shop__1 {
+        font-size: 25px;
+        line-height: 57px;
         
+    }
+    .but {
+        margin-top: 1rem !important;
+        font-size: 14px;
+        line-height: 21px;
         
+    }
+    .waydss{
+        display: none;
+    }
+    .flihk{
+        margin-top: 1rem !important;
+    }
+    .gbola img{
+        width: 101% !important;
+        margin-bottom: 1.5rem;
+    }
+    .gbolas img{
+        width: 100% !important;
+        margin-bottom: 1rem !important;
+    }
+    .laba__1_4qq {
+        font-size: 25px;
+        line-height: 32px;
+    } 
+    .mafo{
+        text-align: center !important;
+    }
+    .gbas{
+        margin-left: 0% !important;
+    }
+    .mowes{
+        margin-left: -12% !important;
+        margin-top: 3rem;
+    }
+    .salo{
+        display: none;
+    }
+    .lokeke .dasy{
+        display: none;
+    }
 }
