@@ -21,15 +21,28 @@
 <body style="overflow-x: hidden;">
     <div class="row">
         <!-- One -->
-        <div class="col-md-6">
+        <div class="col-md-6" id="polo1">
             <div class="d-flex flex-column" style="padding: 5% 25% 0 25%;">
                 <img src="img/Group 119signlog.svg" alt="logq" style="width: 50%; margin-bottom: 25%;">
-                <p class="sig__3 mb-4">Create a free account!</p>
-                <input type="email" class="form-control mb-4 parry" placeholder="What is your Email?">
-                <input type="password" class="form-control parry mb-4" placeholder="Create a password">
-                <input type="password" class="form-control parry mb-5" placeholder="Confirm Password">
+                <div class="row">
+                    <div class="col-md-10">
+                        <p class="sig__3 mb-4">Create a free account!</p>
+                        <input type="email" class="form-control mb-4 parry" placeholder="What is your Email?">
+                        <input type="password" class="form-control parry mb-4" placeholder="Create a password">
+                        <input type="password" class="form-control parry mb-5" placeholder="Confirm Password">
 
-                <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
+                        <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="d-flex flex-column" style="margin-top: 5rem;">
+                            <input type="radio" name="status" id="rev1" class="mb-3" checked onclick="underpost(0);">
+                            <input type="radio" name="status" id="rev2" class="mb-3" onclick="underpost(1);">
+                            <input type="radio" name="status" id="rev3" class="mb-3" onclick="underpost(2);">
+                            <input type="radio" name="status" id="rev4" class="mb-3" onclick="underpost(3);">
+                            <input type="radio" name="status" id="rev5" onclick="underpost(4);">
+                        </div>
+                    </div>
+                </div>
                 <p class="foot5">&copy 2019 - 2022 Lendaba Global Limited - RC 2345787</p>
             </div>
         </div>
@@ -38,72 +51,118 @@
                 <p class="parry__2">Buy Now <br> Pay <span class="type"></span></p>
             </div>
         </div>
-
-        <!-- Two -->
-        <!-- <div class="col-md-6">
+    </div>
+    <!-- Two -->
+    <div class="row d-none changing">
+        <div class="col-md-6" id="polo2">
             <div class="d-flex flex-column" style="padding: 5% 25% 0 25%;">
                 <img src="img/Group 119signlog.svg" alt="logq" style="width: 50%; margin-bottom: 25%;">
-                <p class="sig__3 mb-4">Let's get to know you!</p>
-                <input type="text" class="form-control mb-4 parry" placeholder="What is your first name?">
-                <input type="text" class="form-control mb-4 parry" placeholder="What is your last name?">
-                <input type="text" class="form-control mb-4 parry" placeholder="Specify your Gender..">
-                <select class="custom-select westy mb-4 parry">
-                        <option>What is your Age Range?</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                
-                <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
-                <p class="foot56">&copy 2019 - 2022 Lendaba Global Limited - RC 2345787</p>
+                <div class="row">
+                    <div class="col-md-10">
+                        <p class="sig__3 mb-4">Let's get to know you!</p>
+                        <input type="text" class="form-control mb-4 parry" placeholder="What is your first name?">
+                        <input type="text" class="form-control mb-4 parry" placeholder="What is your last name?">
+                        <input type="text" class="form-control mb-4 parry" placeholder="Specify your Gender..">
+                        <select class="custom-select westy mb-4 parry">
+                            <option>What is your Age Range?</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
 
+                        <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="d-flex flex-column" style="margin-top: 5rem;">
+                            <input type="radio" name="status" id="rev1" class="mb-3" onclick="underpost(0);">
+                            <input type="radio" name="status" id="rev2" class="mb-3" onclick="underpost(1);">
+                            <input type="radio" name="status" id="rev3" class="mb-3" onclick="underpost(2);">
+                            <input type="radio" name="status" id="rev4" class="mb-3" onclick="underpost(3);">
+                            <input type="radio" name="status" id="rev5" onclick="underpost(4);">
+                        </div>
+                    </div>
+                </div>
+                <p class="foot56">&copy 2019 - 2022 Lendaba Global Limited - RC 2345787</p>
             </div>
         </div>
         <div class="col-md-6 north">
             <div style="padding:39% 11% 0 11%;">
                 <p class="parry__2">Buy Now <br> Pay <span class="type"></span></p>
             </div>
-        </div> -->
-        <!-- Three -->
-        <!-- <div class="col-md-6">
+        </div>
+    </div>
+    <!-- Three -->
+    <div class="row d-none changing">
+        <div class="col-md-6" id="polo3">
             <div class="d-flex flex-column" style="padding: 5% 25% 0 25%;">
                 <img src="img/Group 119signlog.svg" alt="logq" style="width: 50%; margin-bottom: 25%;">
-                <p class="sig__3 mb-4">Great Job Adeyemi!</p>
-                <input type="text" class="form-control mb-4 parry" placeholder="What is your residential address?">
-                <input type="text" class="form-control mb-4 parry" placeholder="Which City is the address located?">
-                <select class="custom-select westy mb-4 parry">
-                    <option>Specify your marital status</option>
-                    <option value="1">Male</option>
-                    <option value="2">Female</option>
-                    <option value="3">Others</option>
-                </select>
-                <select class="custom-select westy mb-5 parry">
-                    <option>What is your Nationality?</option>
-                    <option value="1">Male</option>
-                    <option value="2">Female</option>
-                    <option value="3">Others</option>
-                </select>
+                <div class="row">
+                    <div class="col-md-10">
+                        <p class="sig__3 mb-4">Great Job Adeyemi!</p>
+                        <input type="text" class="form-control mb-4 parry"
+                            placeholder="What is your residential address?">
+                        <input type="text" class="form-control mb-4 parry"
+                            placeholder="Which City is the address located?">
+                        <select class="custom-select westy mb-4 parry">
+                            <option>Specify your marital status</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Others</option>
+                        </select>
+                        <select class="custom-select westy mb-5 parry">
+                            <option>What is your Nationality?</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Others</option>
+                        </select>
 
-                <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
+                        <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="d-flex flex-column" style="margin-top: 5rem;">
+                            <input type="radio" name="status" id="rev1" class="mb-3" onclick="underpost(0);">
+                            <input type="radio" name="status" id="rev2" class="mb-3" onclick="underpost(1);">
+                            <input type="radio" name="status" id="rev3" class="mb-3" onclick="underpost(2);">
+                            <input type="radio" name="status" id="rev4" class="mb-3" onclick="underpost(3);">
+                            <input type="radio" name="status" id="rev5" onclick="underpost(4);">
+                        </div>
+                    </div>
+                </div>
                 <p class="foot56">&copy 2019 - 2022 Lendaba Global Limited - RC 2345787</p>
-
             </div>
         </div>
         <div class="col-md-6 north">
             <div style="padding:39% 11% 0 11%;">
                 <p class="parry__2">Buy Now <br> Pay <span class="type"></span></p>
             </div>
-        </div> -->
-        <!-- Four -->
-        <!-- <div class="col-md-6">
+        </div>
+    </div>
+    <!-- Four -->
+    <div class="row d-none changing">
+        <div class="col-md-6" id="polo4">
             <div class="d-flex flex-column" style="padding: 5% 25% 0 25%;">
                 <img src="img/Group 119signlog.svg" alt="logq" style="width: 50%; margin-bottom: 25%;">
-                <p class="sig__3 mb-4">You're almost done!</p>
-                <input type="text" class="form-control mb-4 parry" placeholder="Enter your phone number.">
-                <input type="text" class="form-control mb-3 parry" placeholder="Enter your Bank Verification Number.">
-                <small id="emailHelp" class="form-text text-muted mb-5">Please be informed, information collected are highly <br> secured with LaBaLaba.</small>
+                <div class="row">
+                    <div class="col-md-10">
+                        <p class="sig__3 mb-4">You're almost done!</p>
+                        <input type="text" class="form-control mb-4 parry" placeholder="Enter your phone number.">
+                        <input type="text" class="form-control mb-3 parry"
+                            placeholder="Enter your Bank Verification Number.">
+                        <small id="emailHelp" class="form-text text-muted mb-5">Please be informed, information
+                            collected are highly <br> secured with LaBaLaba.</small>
 
-                <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
+                        <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="d-flex flex-column" style="margin-top: 5rem;">
+                            <input type="radio" name="status" id="rev1" class="mb-3" onclick="underpost(0);">
+                            <input type="radio" name="status" id="rev2" class="mb-3" onclick="underpost(1);">
+                            <input type="radio" name="status" id="rev3" class="mb-3" onclick="underpost(2);">
+                            <input type="radio" name="status" id="rev4" class="mb-3" onclick="underpost(3);">
+                            <input type="radio" name="status" id="rev5" onclick="underpost(4);">
+                        </div>
+                    </div>
+                </div>
                 <p class="foot57">&copy 2019 - 2022 Lendaba Global Limited - RC 2345787</p>
 
             </div>
@@ -112,40 +171,56 @@
             <div style="padding:39% 11% 0 11%;">
                 <p class="parry__2">Buy Now <br> Pay <span class="type"></span></p>
             </div>
-        </div> -->
-        <!-- Five -->
-        <!-- <div class="col-md-6">
+        </div>
+    </div>
+    <!-- Five -->
+    <div class="row d-none changing">
+        <div class="col-md-6" id="polo5">
             <div class="d-flex flex-column" style="padding: 5% 25% 0 25%;">
                 <img src="img/Group 119signlog.svg" alt="logq" style="width: 50%; margin-bottom: 15%;">
-                <p class="sig__3 mb-4">Here comes the end!</p>
-                <select class="custom-select westy mb-4 parry">
-                    <option>Specify your Employment Status..</option>
-                    <option value="1">Employed</option>
-                    <option value="2">Unemployed</option>
-                    <option value="3">Others</option>
-                </select>
-                <input type="text" class="form-control mb-4 parry" placeholder="What is the name of the company?">
-                <input type="text" class="form-control mb-3 parry" placeholder="Enter company address.">
-                <select class="custom-select westy mb-4 parry">
-                    <option>What state is the company located?.</option>
-                    <option value="1">Lagos</option>
-                    <option value="2">Abuja</option>
-                    <option value="3">Others</option>
-                </select>
-                <select class="custom-select westy mb-4 parry">
-                    <option>What LGA is the company located?.</option>
-                    <option value="1">Epe</option>
-                    <option value="2">Ifo</option>
-                    <option value="3">Others</option>
-                </select>
-                <select class="custom-select westy mb-4 parry">
-                    <option>Specify your salary range.</option>
-                    <option value="1">50k-90k</option>
-                    <option value="2">500k-900k</option>
-                    <option value="3">50k-90k</option>
-                </select>
+                <div class="row">
+                    <div class="col-md-10">
+                        <p class="sig__3 mb-4">Here comes the end!</p>
+                        <select class="custom-select westy mb-4 parry">
+                            <option>Specify your Employment Status..</option>
+                            <option value="1">Employed</option>
+                            <option value="2">Unemployed</option>
+                            <option value="3">Others</option>
+                        </select>
+                        <input type="text" class="form-control mb-4 parry"
+                            placeholder="What is the name of the company?">
+                        <input type="text" class="form-control mb-3 parry" placeholder="Enter company address.">
+                        <select class="custom-select westy mb-4 parry">
+                            <option>What state is the company located?.</option>
+                            <option value="1">Lagos</option>
+                            <option value="2">Abuja</option>
+                            <option value="3">Others</option>
+                        </select>
+                        <select class="custom-select westy mb-4 parry">
+                            <option>What LGA is the company located?.</option>
+                            <option value="1">Epe</option>
+                            <option value="2">Ifo</option>
+                            <option value="3">Others</option>
+                        </select>
+                        <select class="custom-select westy mb-4 parry">
+                            <option>Specify your salary range.</option>
+                            <option value="1">50k-90k</option>
+                            <option value="2">500k-900k</option>
+                            <option value="3">50k-90k</option>
+                        </select>
 
-                <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
+                        <button type="button" class="btn btn-primary wayys" style="width: 100%;">Proceed</button>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="d-flex flex-column" style="margin-top: 5rem;">
+                            <input type="radio" name="status" id="rev1" class="mb-3" onclick="underpost(0);">
+                            <input type="radio" name="status" id="rev2" class="mb-3" onclick="underpost(1);">
+                            <input type="radio" name="status" id="rev3" class="mb-3" onclick="underpost(2);">
+                            <input type="radio" name="status" id="rev4" class="mb-3" onclick="underpost(3);">
+                            <input type="radio" name="status" id="rev5" onclick="underpost(4);">
+                        </div>
+                    </div>
+                </div>
                 <p class="foot58">&copy 2019 - 2022 Lendaba Global Limited - RC 2345787</p>
 
             </div>
@@ -154,8 +229,10 @@
             <div style="padding:39% 11% 0 11%;">
                 <p class="parry__2">Buy Now <br> Pay <span class="type"></span></p>
             </div>
-        </div> -->
+        </div>
     </div>
+
+
 
 
 
@@ -186,6 +263,67 @@
             showCursor: false,
             cursorChar: '|'
         });
+    </script>
+    <!-- <script>
+        function underpost() {
+
+            if (document.getElementById('rev1').checked) {
+                document.getElementById('polo1').style.visibility = "visible";
+                document.getElementById('polo2').style.visibility = "hidden";
+                document.getElementById('polo3').style.visibility = "hidden";
+                document.getElementById('polo4').style.visibility = "hidden";
+                document.getElementById('polo5').style.visibility = "hidden";
+                // document.getElementById('butt').style.visibility = "visible";
+
+            } else if (document.getElementById('rev2').checked) {
+                document.getElementById('polo2').style.visibility = "visible";
+                document.getElementById('polo1').style.visibility = "hidden";
+                document.getElementById('polo3').style.visibility = "hidden";
+                document.getElementById('polo4').style.visibility = "hidden";
+                document.getElementById('polo5').style.visibility = "hidden";
+            }
+            else if (document.getElementById('rev3').checked) {
+                document.getElementById('polo3').style.visibility = "visible";
+                document.getElementById('polo1').style.visibility = "hidden";
+                document.getElementById('polo2').style.visibility = "hidden";
+                document.getElementById('polo4').style.visibility = "hidden";
+                document.getElementById('polo5').style.visibility = "hidden";
+            }
+            else if (document.getElementById('rev4').checked) {
+                document.getElementById('polo4').style.visibility = "visible";
+                document.getElementById('polo1').style.visibility = "hidden";
+                document.getElementById('polo2').style.visibility = "hidden";
+                document.getElementById('polo3').style.visibility = "hidden";
+                document.getElementById('polo5').style.visibility = "hidden";
+            }
+            else if (document.getElementById('rev5').checked) {
+                document.getElementById('polo5').style.visibility = "visible";
+                document.getElementById('polo1').style.visibility = "hidden";
+                document.getElementById('polo2').style.visibility = "hidden";
+                document.getElementById('polo4').style.visibility = "hidden";
+                document.getElementById('polo3').style.visibility = "hidden";
+            }
+        }
+
+    </script> -->
+    <script>
+        function underpost(a) {
+            if (document.getElementById('rev1').checked) {
+                document.getElementsByClassName('changing')[0].style.display = 'none';
+                document.getElementsByClassName('changing')[1].style.display = 'none';
+                document.getElementsByClassName('changing')[2].style.display = 'none';
+                document.getElementsByClassName('changing')[3].style.display = 'none';
+                document.getElementsByClassName('changing')[4].style.display = 'none';
+
+                // document.getElementsByClassName('changing')[a].style.display = 'flex';
+                document.getElementsByClassName('changing')[a].classList.remove('d-none');
+
+
+            }
+
+        }
+
+
     </script>
 
 </body>

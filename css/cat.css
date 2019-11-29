@@ -187,7 +187,7 @@ a{
 .sig__3{
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 54px;
     color: #12191D;
 }
@@ -263,4 +263,24 @@ a{
     border-radius: 50%;
   }
   /* end */
+  .lipids{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #12191D;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: .4rem 1rem;
+  }
+  .lipids:hover{
+      color:#12191D ;
+  }
+  .second {
+    margin-top: -650px;
+}
+  
   

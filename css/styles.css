@@ -22,13 +22,33 @@ body {
 .navbar-brand img{
     width:90%;
 }
-/* .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-} */
+.underline {
+    background: #89FFB3;
+    width: 30px;
+    height: 4px;
+    position: relative;
+    right: 442px;
+    top: 33px;
+    border-radius: 2px
+}
+.underline1{
+    background: #89FFB3;
+    width: 30px;
+    height: 4px;
+    position: relative;
+    right: 313px;
+    top: 33px;
+    border-radius: 2px
+}
+.underline2{
+    background: #89FFB3;
+    width: 30px;
+    height: 4px;
+    position: relative;
+    right: 170px;
+    top: 33px;
+    border-radius: 2px
+}
 .navbar .nav-link {
     font-size: .925rem;
     font-weight: 400;
@@ -37,7 +57,7 @@ body {
     margin: 0 10px;
 }
 .navbar .nav-link:hover {
-    color: pink;
+    color: #89FFB3;
 }
 .stid:hover{
     color: white !important;
@@ -447,6 +467,7 @@ a{
 .space1 {
     margin-left: 30%;
 }
+
 /* Merchants */
 .merch1{
     font-style: normal;
